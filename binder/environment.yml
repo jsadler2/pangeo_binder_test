@@ -8,7 +8,6 @@ dependencies:
   - distributed
   - dask-kubernetes
   - gcsfs
-  - intake::intake-xarray
   - zarr
   - matplotlib
   - numcodecs
@@ -25,4 +24,5 @@ dependencies:
   - nodejs
   - pip:
     - kubernetes
+    - intake::intake-xarray
     - graphviz
